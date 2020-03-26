@@ -12,17 +12,18 @@
 nav {
     width: 100%;
     height: 80px;
-    background-color: #0009;
-    line-height: 80px;
 }
 nav ul {
-    float: right;
+    float: left;
     margin-right:30px ;
 }
 
 nav ul li {
     list-style-type: none;
-    display: inline-block;
+    width: 2000px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #0009;
     transition: 0.8s all;
 }
 nav ul li:hover {
@@ -33,4 +34,8 @@ nav ul li a {
     color: #fff;
     padding: 30px;
 
+}
+
+@media screen and (max-width:959px) {
+    
 }
