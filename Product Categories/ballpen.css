@@ -8,7 +8,7 @@ body {
     width: 1280px;
     margin: 70 auto 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -21,7 +21,7 @@ body {
     box-sizing: border-box;
     display: inline-block;
 }
-
+/*ballpen*/
 .container .box .imgBox {
     position: relative;
     overflow: hidden;
@@ -56,6 +56,312 @@ body {
     color: #fff;
 }
 .container .box .details .content h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+/*ballpen1*/
+.container .box .imgBox1 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox1 img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox1 img {
+    transform: scale(1.2);
+}
+.container .box .details1 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details1 {
+    transform: scaleY(1);
+}
+.container .box .details1 .content1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details1 .content1 h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/*ballpen2*/
+.container .box .imgBox2 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox2 img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox2 img {
+    transform: scale(1.2);
+}
+.container .box .details2 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details2 {
+    transform: scaleY(1);
+}
+.container .box .details2 .content2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details2 .content2 h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/*ballpen3*/
+.container .box .imgBox3 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox3 img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox3 img{
+    transform: scale(1.2);
+}
+.container .box .details3 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details3 {
+    transform: scaleY(1);
+}
+.container .box .details3 .content3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details3 .content3 h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+/*ballpen4*/ 
+.container .box .imgBox4 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox4 img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox4 img{
+    transform: scale(1.2);
+}
+.container .box .details4 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details4 {
+    transform: scaleY(1);
+}
+.container .box .details4 .content4{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details4 .content4 h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+/*ballpen5*/
+.container .box .imgBox5 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox5 img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox5 img{
+    transform: scale(1.2);
+}
+.container .box .details5 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details5 {
+    transform: scaleY(1);
+}
+.container .box .details5 .content5{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details5 .content5 h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+/*ballpen6*/
+.container .box .imgBox6 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox6 img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox6 img{
+    transform: scale(1.2);
+}
+.container .box .details6 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details6 {
+    transform: scaleY(1);
+}
+.container .box .details6 .content6{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details6 .content6 h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+/*ballpen7*/
+.container .box .imgBox7 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox7 img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox7 img{
+    transform: scale(1.2);
+}
+.container .box .details7 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details7 {
+    transform: scaleY(1);
+}
+.container .box .details7 .content7{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details7 .content7 h2 {
+    margin: 10px 0 0;
+    padding: 0;
+}
+/*ballpen8*/
+.container .box .imgBox8 {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox8 img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox8 img{
+    transform: scale(1.2);
+}
+.container .box .details8 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.container .box:hover .details8 {
+    transform: scaleY(1);
+}
+.container .box .details8 .content8{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details8 .content8 h2 {
     margin: 10px 0 0;
     padding: 0;
 }
