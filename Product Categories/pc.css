@@ -1,7 +1,7 @@
 .container {
     width: 95%;
-    overflow: hidden;
-    background: skyblue;
+    overflow: visible;
+    background: black;
     margin: 20px auto;
     padding: 20px 0px;
 }
@@ -9,17 +9,18 @@
 .container ul {
     padding: 0px;
     margin: 0px;
-}
 
+}
 .container ul li {
     list-style: none;
     float: left;
     width: 300px;
     height: 300px;
-    background: red;
+    background-image: url(../dashboard1/2.jpg);
+    background-size:40px 20px 0px 40px ;
     margin: 40px 20px 0px 40px;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .container ul li :hover {
@@ -38,3 +39,4 @@
     background: white;
     text-align: center;
 }
+
