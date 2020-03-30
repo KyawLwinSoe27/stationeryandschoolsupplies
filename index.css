@@ -50,7 +50,7 @@ nav ul li a {
 .clock1 {
     position: absolute;
     top: 2cm;
-    left: 7cm;
+    left: 5cm;
     color: #fff;
     font-size: 25px;
     border: 1px solid #ccc;
@@ -59,7 +59,7 @@ nav ul li a {
 .copy{
     position: absolute;
     top: 15cm;
-    left: 10cm;
+    left: 5cm;
     color: #fff;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
