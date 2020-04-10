@@ -14,8 +14,8 @@ body {
 
 .container .box {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background: #ff0;
     margin: 10px;
     box-sizing: border-box;
@@ -36,10 +36,10 @@ body {
 .container .box .details {
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
+    top: 0.5px;
+    left: 0.5px;
+    bottom: 0.5px;
+    right: 0.5px;
     background: rgb(0,0,0,.8);
     transform: scaleY(0);
     transition: transform 0.5s;
