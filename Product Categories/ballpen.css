@@ -152,10 +152,10 @@ body {
 .container .box .details3 {
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    top: 0.5px;
-    left: 0.5px;
-    bottom: 0.5px;
-    right: 0.5px;
+    top: 0.4px;
+    left: 0.4px;
+    bottom: 0.4px;
+    right: 0.4px;
     background: rgb(0,0,0,.8);
     transform: scaleY(0);
     transition: transform 0.5s;
