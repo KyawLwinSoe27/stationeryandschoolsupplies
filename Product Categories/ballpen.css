@@ -7,7 +7,7 @@ body {
 .container {
     margin: 70 auto 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: initial;
     flex-wrap: wrap;
     positon: absolute;
 }
