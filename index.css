@@ -5,7 +5,7 @@
 
 }
 #body {
-    background:black;
+    background:darkblue;
     position: absolute;
 }
 
@@ -23,7 +23,7 @@ nav ul li {
     list-style-type: none;
     position:relative;
     line-height: 80px;
-    background-color: #0009;
+    background-color: darkblue;
     transition: 0.8s all;
 }
 nav ul li:hover {
