@@ -1,7 +1,6 @@
 .container {
     width: 95%;
     overflow: visible;
-    background: black;
     margin: 20px auto;
     padding: 20px 0px;
 }
@@ -19,6 +18,7 @@
     background-size:40px 20px 0px 40px ;
     margin: 40px 20px 0px 40px;
     box-sizing: border-box;
+    border: 2px solid pink;
 }
 
 .container ul li :hover {
